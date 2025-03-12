@@ -6,9 +6,7 @@ pipeline {
     stage('Test') {
       steps {
         sh 'node --version'
-      }
-      steps {
-        echo "The END"
+        echo "Hi I am Soumyajit"
       }
     }
   }
